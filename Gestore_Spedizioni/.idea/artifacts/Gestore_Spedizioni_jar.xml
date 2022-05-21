@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Gestore_Spedizioni:jar">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="Gestore_Spedizioni.jar">
+      <element id="module-output" name="Gestore_Spedizioni" />
+    </root>
+  </artifact>
+</component>

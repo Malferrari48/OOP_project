@@ -1,0 +1,13 @@
+Il polimorfismo viene utilizzato in questo progetto per 2 motivi:
+1) Mettere o estrarre dallo stesso Vector oggetti di SpedizioneNormale e di SpedizioneAssicurata (quest'ultima classe eredita da
+   SpedizioneNormale). Questo uso è presente:
+   - Nella classe CreazioneSpedizione riga 207
+   - Nella classe CambioStato riga 35
+   - Nella classe SpedizioniTableModel righe 98-127-148
+   - Nella classe TabellaSpedizioni riga 72
+2) Memorizzare in un oggetto JFrame il frame attuale per poi chiuderlo in un oggetto esterno che implementa ActionListener
+   (il "this" in questi casi significherebbe l'oggetto che contiene la funzione actionPerformed). Questo uso è presente:
+   - Nella classe AutenticazioneAmministratore riga 30
+   - Nella classe AutenticazioneCliente riga 52
+   - Nella classe Registrazione riga 51
+   - Nella classe CreazioneSpedizione riga 78
