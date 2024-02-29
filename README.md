@@ -1,5 +1,5 @@
 # OOP_project
-This project was my exam for the Unimore "Object Oriented Programming" course, carried out in January 2021.
+This project was my exam for the Unimore "Programmazione a oggetti" course, carried out in January 2021.
 
 In this repository you can find:
 - "Gestore_Spedizioni" where the Java code of a shipping manager is present
